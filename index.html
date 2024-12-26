@@ -15,6 +15,7 @@
             overflow: hidden;
             position: relative; /* Это важно для позиционирования снега поверх контента */
             font-family: 'Bad Script', cursive;
+            overflow-y: auto;
         }
 
         /* Центровка контейнера */
@@ -23,7 +24,6 @@
             flex-direction: column;
             align-items: center; /* выравнивание по верхнему краю */
             justify-content: flex-start; /* выравнивание по левому краю */
-            height: 100vh;
             padding: 20px;
             /* text-align: center; */
             position: relative; /* Контейнер остается поверх снега */
@@ -201,7 +201,7 @@
         /* Адаптив */
         @media (max-width: 768px) {
             .text {
-                font-size: 17px;
+                font-size: 13px;
             }
 
             .button {
